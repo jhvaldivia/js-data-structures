@@ -1,7 +1,7 @@
 // O(N) time will grow proportionally to N
 const TEST_VALUE = 2000000;
 
-function addUpToN(n) {
+function addUpTo(n) {
   let total = 0;
   for (let i = 0; i <= n; i++) {
     total += i;
@@ -11,5 +11,5 @@ function addUpToN(n) {
 }
 
 console.time("time");
-addUpToN(TEST_VALUE);
+addUpTo(TEST_VALUE);
 console.timeEnd("time");
