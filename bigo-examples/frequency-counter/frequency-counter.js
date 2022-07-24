@@ -1,3 +1,4 @@
+// O(N) time will grow proportionally to N
 const TEST_VALUE_1 = [1,2,3,2,5];
 const TEST_VALUE_2 = [9,1,4,4,25];
 
