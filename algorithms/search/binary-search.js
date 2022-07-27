@@ -1,3 +1,9 @@
+/**
+ * The binarySearch method returns the first index in the array at which a given element can be found, or -1 if it does not exist.
+ * @param  {Number[]} array Array of elements (numbers).
+ * @param  {Number}   value Element to locate in the array.
+ * @return {Number}         Index of value in array, -1 if not found.
+ */
 function binarySearch(array, value){
   let min = 0;
   let max = array.length - 1;
