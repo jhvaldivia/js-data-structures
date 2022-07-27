@@ -1,5 +1,6 @@
 /**
  * The stringSearch method returns how many times a given string is in another string.
+ * (Naive implementation)
  * Time complexity O(n^2)
  * @param  {String} word  Base string to compare against.
  * @param  {String} value String to locate in the word.
