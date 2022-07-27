@@ -1,5 +1,6 @@
 /**
  * The binarySearch method returns the first index in the array at which a given element can be found, or -1 if it does not exist.
+ * Time complexity O(log n)
  * @param  {Number[]} array Array of elements (numbers).
  * @param  {Number}   value Element to locate in the array.
  * @return {Number}         Index of value in array, -1 if not found.
