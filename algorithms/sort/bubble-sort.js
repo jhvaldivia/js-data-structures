@@ -1,5 +1,5 @@
 /**
- * The bubbleSort will return the same array of numbers but sorted in ascending order.
+ * The bubbleSort method will return the same array of numbers but sorted in ascending order.
  * Time complexity O(n^2)
  * @param  {Number[]} array Array of elements (numbers).
  * @return {Number[]}       Sorted array in ascending order.

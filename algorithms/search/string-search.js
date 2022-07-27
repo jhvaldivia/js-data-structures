@@ -1,3 +1,10 @@
+/**
+ * The stringSearch method returns how many times a given string is in another string.
+ * Time complexity O(n^2)
+ * @param  {String} word  Base string to compare against.
+ * @param  {String} value String to locate in the word.
+ * @return {Number}       Number of times the value is in the word
+ */
 function stringSearch(word, value) {
   let count = 0;
   for (let i = 0; i < word.length; i++) {
@@ -10,5 +17,5 @@ function stringSearch(word, value) {
   return count;
 }
 
-const result = stringSearch("lorie loled", "lo");
+const result = stringSearch("example string", "str");
 console.log(`Result is: ${result}`);
