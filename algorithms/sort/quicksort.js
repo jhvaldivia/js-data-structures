@@ -1,3 +1,5 @@
+// time: O(n log n)
+
 const quicksort = (arr) => {
   if (arr.length < 2) {
     return arr;
